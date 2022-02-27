@@ -1,4 +1,4 @@
-age = int (input ())
+age = int (input ('please enter your age: '))
 if age > 0 and age < 6 :
     print('child')
 elif age >= 6 and age < 10 :
