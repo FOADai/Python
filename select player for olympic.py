@@ -1,5 +1,5 @@
 time = input('enter Number of players:')
-players = input('enter players with number play Example:5 2 1 0 3, :')
+players = input('enter players with number play, Example:5 2 1 0 3, :')
 players = players.split()
 players = list(map(int, players))
 lst = []
