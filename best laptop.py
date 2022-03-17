@@ -4,8 +4,7 @@ L=[]
 for i in range(0,n):
 	s=input().split()
 	L.append(s)
-L = [list(map(int, lst)) for lst in L]
-print(L,type(L[0][1]))	
+L = [list(map(int, lst)) for lst in L]	
 flag=0 
 
 for i in L:
