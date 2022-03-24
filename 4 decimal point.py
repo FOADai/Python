@@ -1,5 +1,5 @@
 from math import sqrt
-time = int(input())
+time = int(input('enter number: '))
 L = []
 for i in range(time):
     n = int(input())
